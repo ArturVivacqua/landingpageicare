@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCare</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#home" class="logo">iCare</a>
+        <div id="menu-icon" class="fas fa-bars"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#portfolio">Funcionalidades</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Bem Vindo ao  <span>iCare</span></h1>
+            <h2>Plataforma de Gestão de Home-Care</h2>
+            <p>Oferecemos um serviço avançado para que sua empresa possa otimizar o atendimento aos beneficiários.</p>
+            <a href="#contact" class="btn">Fale Conosco</a>
+        </div>
+    </section>
+    
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/vecteezy_man-nurse-holding-clipboard-healthcare-workers-concept_31718397.png" alt="">
+        </div>
+        <div class="about-text">
+            <h1>Sobre</h1>
+            <p>A finalidade do desenvolvimento do ICare é automatizar e melhorar o trabalho do serviço prestado, resolvendo problemas comuns como a falta de padronização nos cuidados do paciente, falta de monitoramento adequado, má logística e gerenciamento de equipe, além de dificuldades no acompanhamento da medicação e evolução dos pacientes. Nosso software visa resolver esses desafios, trazendo funcionalidades como acompanhamento da medicação e evolução do paciente, acessível tanto pelos profissionais de saúde quanto pelos responsáveis legais.</p>
+            <br/>
+            <a href="#contact" class="btn">Entre em Contato</a>
+        </div>
+    </section>
+
+    <!-- Portfolio/Funcionalidades -->
+    <section class="portfolio" id="portfolio">
+        <br/>
+        <br/>
+        <div class="heading">
+            <h1>Funcionalidades</h1>
+            <br/>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="images/desenvolvimento-de-novos-medicamentos.jpg" alt="">
+                </div>
+                <h2>Acompanhamento de Medicação</h2>
+                <p>Acompanhe o horário dos medicamentos e tenha notificações automáticas para garantir a adesão ao tratamento.</p>
+            </div>
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="images/prontuario-medico.jpeg" alt="">
+                </div>
+                <h2>Monitoramento de Pacientes</h2>
+                <p>Veja a evolução do paciente e tenha um histórico detalhado acessível a qualquer momento.</p>
+            </div>
+            <div class="p-box">
+                <div class="p-img">
+                    <img src="images/ManeGarrincha-Covid19-HospitalDeCampanha-Estadio-Fechamento-141-848x477.jpg" alt="">
+                </div>
+                <h2>Gestão de Equipe</h2>
+                <p>Melhore o gerenciamento de equipes com ferramentas integradas para uma melhor alocação de recursos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h1>Contato</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>55 61 998081212</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-envelope-open"></i>
+                    <p>icare@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Brasília, DF</p>
+                </div>
+                <div class="info-box social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form id="contact-form" action="">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    <input type="submit" value="Enviar" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+</body>
+</html>
